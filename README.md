@@ -1,4 +1,3 @@
-s-chatbot — Banking Intent Classifier & Chatbot
 A machine learning project that classifies banking customer queries into 77 intent categories using the Banking77 dataset, and returns a scripted chatbot response based on the predicted intent.
 Built as part of a University of Hertfordshire Data Science coursework project.
 
