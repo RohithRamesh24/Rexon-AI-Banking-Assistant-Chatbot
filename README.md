@@ -52,20 +52,18 @@ Core dependencies:
 
 Setup & Running
 1. Clone the repository
-git clone https://github.com/<your-username>/ds-chatbot.git
 cd ds-chatbot
 
 2. Create and activate a virtual environment
 python3 -m venv .venv
 source .venv/bin/activate        # macOS/Linux
-.venv\Scripts\activate           # Windows
 
-3. Install dependencies
+4. Install dependencies
 pip install -r requirements.txt
 
-4. Add the data
+5. Add the data
 Place train.csv and test.csv into data/raw/. The dataset can be downloaded from Hugging Face or Kaggle.
-5. Run the notebook
+6. Run the notebook
 jupyter notebook notebooks/01_eda.ipynb
 
 Run all cells in order. The notebook is self-contained and covers:
